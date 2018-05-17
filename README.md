@@ -1,7 +1,10 @@
 
+
 # Git Guide
 git을 사용하면서 자주 사용하는 명령어를 정리. (맨날 까먹고 검색하는 나를 위해서)
----
+
+* * *
+
 ## 기본설정
 ### git init
 	$ git init
@@ -15,11 +18,11 @@ git을 사용하면서 자주 사용하는 명령어를 정리. (맨날 까먹�
 	$ git config --global user.name "cutelee"
 	$ git config --global user.email "cutelee2@khu.ac.kr"
 git config에 **--system** 옵션을 주면 `/etc/gitconfig` 파일을 찾으며, 이 파일의 설정은 모든 사용자와 모든 저장소에 적용된다. **--global** 옵션을 주면 `~/.gitconfig` 파일을 찾으며 이 설정은 해당 저장소에만 적용되는 설정이다. 설정파일을 직접 수정해도 되지만, git config 명령어를 사용하는 것이 더 편리.
----
+* * *
 ## Commit
 	$ git commit -m "[contents]"
 현재 add된 파일들을 커밋해주며, contents에는 커밋메세지를 작성하면 된다.
----
+* * *
 ## 원격 저장소
 ### git clone
 	$ git clone [원격저장소 주소]
@@ -38,4 +41,5 @@ name에 연결된 url을 url로 바꿔주는 명령어.
 ### git push
 	$ git push [name] master
 name에 연결되어 있는 원격저장소로 현재 상태를 전송해주는 명령어.
----
+
+* * *
